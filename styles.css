@@ -148,6 +148,30 @@ body {
   display: flex;
   flex-direction: column;
   background: #e5e7eb;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content2-arranger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  font-style: italic;
+  max-width: 700px;
+}
+
+.quote-footer {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 100px;
+  margin-top: -20px;
 }
 
 /* end of content div 2 */
